@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<task id="configure_wifi">
+  <title>Configure Wi-Fi on the ESP32 Temperature Monitoring System</title>
+
+  <taskbody>
+
+    <prereq>
+      <p>
+        Ensure that the ESP32 is connected to the computer and that
+        the Arduino IDE is installed.
+      </p>
+    </prereq>
+
+    <steps>
+
+      <step>
+        <cmd>Open the ESP32 project in the Arduino IDE.</cmd>
+      </step>
+
+      <step>
+        <cmd>Locate the Wi-Fi configuration section in the program.</cmd>
+      </step>
+
+      <step>
+        <cmd>Enter the Wi-Fi network name in the SSID field.</cmd>
+      </step>
+
+      <step>
+        <cmd>Enter the Wi-Fi password in the password field.</cmd>
+      </step>
+
+      <step>
+        <cmd>Select the correct ESP32 board and communication port.</cmd>
+      </step>
+
+      <step>
+        <cmd>Upload the updated program to the ESP32.</cmd>
+      </step>
+
+      <step>
+        <cmd>Open the Serial Monitor to verify the Wi-Fi connection.</cmd>
+      </step>
+
+    </steps>
+
+    <result>
+      <p>
+        The ESP32 connects to the configured Wi-Fi network and begins
+        transmitting sensor data when the connection is successful.
+      </p>
+    </result>
+
+  </taskbody>
+</task>
