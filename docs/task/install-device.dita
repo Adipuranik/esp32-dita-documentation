@@ -1,1 +1,55 @@
-<!-- Installation task -->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<task id="install_device">
+  <title>Install the ESP32 Temperature Monitoring System</title>
+
+  <taskbody>
+
+    <prereq>
+      <p>
+        Ensure that the ESP32 development board is disconnected
+        from the power supply before connecting the components.
+      </p>
+    </prereq>
+
+    <steps>
+
+      <step>
+        <cmd>Connect the DHT sensor VCC pin to the ESP32 power pin.</cmd>
+      </step>
+
+      <step>
+        <cmd>Connect the DHT sensor GND pin to the ESP32 ground pin.</cmd>
+      </step>
+
+      <step>
+        <cmd>Connect the DHT sensor data pin to the configured GPIO pin on the ESP32.</cmd>
+      </step>
+
+      <step>
+        <cmd>Connect the ESP32 development board to the computer using a USB cable.</cmd>
+      </step>
+
+      <step>
+        <cmd>Open the project in the Arduino IDE.</cmd>
+      </step>
+
+      <step>
+        <cmd>Select the appropriate ESP32 board and communication port.</cmd>
+      </step>
+
+      <step>
+        <cmd>Upload the program to the ESP32 development board.</cmd>
+      </step>
+
+    </steps>
+
+    <result>
+      <p>
+        The ESP32 starts collecting temperature and humidity readings
+        after the program is successfully uploaded.
+      </p>
+    </result>
+
+  </taskbody>
+</task>
