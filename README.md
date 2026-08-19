@@ -33,5 +33,5 @@ docs/
 ├── task/
 │   ├── install-device.dita
 │   └── configure-wifi.dita
-└── reference/
+└─ reference/
     └── troubleshooting.dita
