@@ -1,1 +1,42 @@
-<!-- Troubleshooting reference -->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<reference id="troubleshooting">
+  <title>Troubleshooting the ESP32 Temperature Monitoring System</title>
+
+  <refbody>
+
+    <section>
+      <title>No sensor readings</title>
+      <p>
+        Verify that the DHT sensor is connected correctly to the ESP32.
+        Check the power, ground, and data pin connections.
+      </p>
+    </section>
+
+    <section>
+      <title>Incorrect temperature or humidity values</title>
+      <p>
+        Ensure that the correct DHT sensor type is selected in the program
+        and confirm that the sensor connections are secure.
+      </p>
+    </section>
+
+    <section>
+      <title>ESP32 cannot connect to Wi-Fi</title>
+      <p>
+        Verify the SSID and password in the Wi-Fi configuration section.
+        Restart the ESP32 after confirming the network credentials.
+      </p>
+    </section>
+
+    <section>
+      <title>Program upload fails</title>
+      <p>
+        Confirm that the correct ESP32 board and communication port are
+        selected in the Arduino IDE. Reconnect the USB cable and retry
+        the upload.
+      </p>
+    </section>
+
+  </refbody>
+</reference>
