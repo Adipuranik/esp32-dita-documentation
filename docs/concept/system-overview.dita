@@ -1,1 +1,21 @@
-<!-- System overview topic -->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<concept id="system_overview">
+  <title>ESP32 Temperature Monitoring System Overview</title>
+
+  <conbody>
+    <p>
+      The ESP32 Temperature Monitoring System is an IoT-based system
+      designed to monitor environmental temperature and humidity.
+      The system uses an ESP32 development board and a DHT sensor
+      to collect environmental data.
+    </p>
+
+    <p>
+      The ESP32 processes the sensor readings and can transmit the
+      collected data through a Wi-Fi connection. The system can be
+      used for applications that require remote monitoring of
+      temperature and humidity conditions.
+    </p>
+  </conbody>
+</concept>
